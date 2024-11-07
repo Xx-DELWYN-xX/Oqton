@@ -29,7 +29,7 @@ def GetCredentials():
 def login():
     _username, _password = GetCredentials()
 
-    user_field = driver.find_element(by="id", value="userr-name")
+    user_field = driver.find_element(by="id", value="user-name")
     pass_field = driver.find_element(by="id", value="password")
     button = driver.find_element(by="id", value="login-button")
 
